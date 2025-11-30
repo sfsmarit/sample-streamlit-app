@@ -101,7 +101,7 @@ st.markdown(
 
 
 st.subheader("予備知識", divider=True)
-st.markdown("ここから先は読まなくても OK です。")
+st.markdown("ここから先は興味があれば読んでみてください。")
 
 st.markdown("---")
 
