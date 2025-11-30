@@ -3,7 +3,7 @@ import streamlit as st
 nl = "  "
 
 st.set_page_config(page_title="はじめに")
-st.title("Python + Streamlit で業務ウェブアプリを作る方法")
+st.title("Python + Streamlit で業務 Web アプリを作る方法")
 
 
 st.subheader("目的", divider=True)
@@ -14,7 +14,7 @@ st.markdown(
 )
 
 
-st.subheader("ウェブアプリの特徴", divider=True)
+st.subheader("Web アプリの特徴", divider=True)
 st.markdown(
     f"""
     :white_check_mark: **メリット**
@@ -39,21 +39,21 @@ st.markdown(
 st.subheader("Streamlit とは", divider=True)
 st.markdown(
     """
-    Streamlit とは、Python で簡単にウェブアプリを作れるオープンソースフレームワークです。
+    Streamlit とは、Python で簡単に Web アプリを作れるオープンソースフレームワークです。
     データ分析結果を迅速に可視化することを目的に、2018年に設立され、翌年にオープンソース化されました。
     
     :white_check_mark: **メリット**
     - Python だけで作ることができる
-      - フロントエンド(HTML, CSS, Javascript 等) の知識不要
-      - データ分析の勉強にもなる
+        - フロントエンド(HTML, CSS, JavaScript 等) の知識不要
+        - データ分析の勉強にもなる
     - 開発が速い
-      - 少量のコードで UI を作れる
-      - コード変更がリアルタイムで反映される
-      - プリセットの UI が豊富で、見た目もよい
+        - 少量のコードで UI を作れる
+        - コード変更がリアルタイムで反映される
+        - プリセットの UI が豊富で、見た目もよい
     - データの可視化に強い
-      - グラフ表示: Matplotlib, Plotly
-      - 表データ処理: Pandas
-      - 機械学習のデモ
+        - グラフ表示: Matplotlib, Plotly
+        - 表データ処理: Pandas
+        - 機械学習のデモ
 
     :no_entry: **デメリット**
     - 複雑な UI を作りづらい
@@ -95,7 +95,7 @@ st.markdown(
     2. ローカル環境でアプリを作る
     3. サーバにデプロイしてアプリを共有する
     
-    詳細については「作ってみる」ページで紹介しています。
+    詳細については次のページで説明しています。
     """
 )
 
@@ -105,7 +105,7 @@ st.markdown("ここから先は読まなくても OK です。")
 
 st.markdown("---")
 
-st.markdown("##### 一般的なウェブアプリの仕組み")
+st.markdown("##### 一般的な Web アプリの仕組み")
 st.markdown(
     f"""
 
