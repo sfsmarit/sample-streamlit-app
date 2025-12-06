@@ -2,7 +2,7 @@ import streamlit as st
 
 nl = "  "
 
-st.set_page_config(page_title="作ってみる")
+st.set_page_config(page_title="作ってみよう")
 st.title("とりあえず作ってみよう")
 
 st.markdown(

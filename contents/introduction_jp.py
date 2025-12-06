@@ -3,7 +3,7 @@ import streamlit as st
 nl = "  "
 
 st.set_page_config(page_title="はじめに")
-st.title("Python + Streamlit で業務 Web アプリを作る方法")
+st.title("Python + Streamlit で業務 Web アプリを作る")
 
 
 st.subheader("目的", divider=True)
